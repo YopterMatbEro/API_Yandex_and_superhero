@@ -11,7 +11,7 @@ list_heroes = sorted([[i['powerstats']['intelligence'], i['name']] for i in json
 print(list_heroes)
 pprint(f'Самый умный герой: {list_heroes[-1][1]}, с интеллектом: {list_heroes[-1][0]}')
 
-
+# method 2 - more readable
 # url = "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/powerstats/"
 # person_intelligence = []
 #
